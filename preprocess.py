@@ -50,7 +50,7 @@ def create_pose_data():
   }
 	start_t = time.time()
 	for video in info.keys():
-		fn = '{}{}.txt'.format("/content/DeepVO-pytorch/KITTI/pose_GT/", video)
+		fn = '{}{}.txt'.format("/content/DeepVO-pytorch/KITTI/poseGT/", video)
 		print('Transforming {}...'.format(fn))
 		with open(fn) as f:
 			lines = [line.split('\n')[0] for line in f.readlines()] 

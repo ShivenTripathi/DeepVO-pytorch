@@ -6,7 +6,7 @@ class Parameters():
 		# Path
 		self.data_dir =  '/content/DeepVO-pytorch/KITTI'
 		self.image_dir = self.data_dir + '/images/'
-		self.pose_dir = self.data_dir + '/pose_GT/'
+		self.pose_dir = self.data_dir + '/poseGT/'
 		
 		self.train_video = ['00', 
     # '01', '02', '05', '08', '09'
